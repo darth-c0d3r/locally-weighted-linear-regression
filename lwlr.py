@@ -11,7 +11,7 @@ def converge(t):
 			return False
 	return True
 
-def stochastic_gradient_descent(w,theta): # ISME GADBAD HAI
+def stochastic_gradient_descent(w,theta):
 	for _ in range(max_n):
 		for i in range(len(X_s)):
 			x = numpy.array(X_s[i])
